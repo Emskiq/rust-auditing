@@ -6,8 +6,6 @@ This repository documents the steps and tutorials I have undertaken, or am curre
 
 ## Getting Started with Solana Development
 
-I prefer a more practical approach of learning sth new — not only studying how the Solana blockchain operates but also writing actual smart contracts on it e.g.
-
 I like the "learn by doing" method, so here are the resources that got me into Solana and Anchor:
 
 * [Solana Introduction](https://github.com/Emskiq/solana-intro) - A personal repository containing simple Solana programs and smart contracts.
