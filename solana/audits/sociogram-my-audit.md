@@ -200,8 +200,6 @@ Logs:
 In the logs, we can see an error: `InsufficientSOL` due to the PDA lamport balance being drained below the required amount. This confirms the protocol’s liquidity is **exhausted**, leaving users unable to redeem tokens for SOL.
 
 
----
-
 ## [M-01] `Global` Config can be initialized by an Attacker
 
 ### Description
@@ -289,8 +287,6 @@ it("Attacker front-runs the global initialize", async () => {
   // The attacker is now permanently in control.
 });
 ```
-
----
 
 ## [M-02] Truncation of `u128` to `u64` leads to significant Fund Loss
 
@@ -385,8 +381,6 @@ thread '...test_u64_truncation' panicked:
 ```
 The function returns `Some(...)` with the truncated value of 1000 instead of an error. This indicates a silent and severe loss of large numeric precision.
 
----
-
 ## [L-01] Lack of validation in global parameter updates
 
 ### Description
@@ -454,8 +448,6 @@ require!(
     CurveLaunchpadError::InvalidParameter
 );
 ```
-
----
 
 ## [L-02] Missing State Inconsistency Check for Solana Rollbacks
 

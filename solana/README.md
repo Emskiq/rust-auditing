@@ -2,8 +2,6 @@
 
 This repository documents the steps and tutorials I have undertaken, or am currently engaged in, to become great at auditing Solana programs (smart contracts).
 
----
-
 ## Getting Started with Solana Development
 
 I like the "learn by doing" method, so here are the resources that got me into Solana and Anchor:
