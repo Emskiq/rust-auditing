@@ -4,7 +4,7 @@
 
 ---
 
-## L-01: Not Closing the Bonding Curve Account After Migration
+## [L-01] Not Closing the Bonding Curve Account After Migration
 
 ### **Severity**: Low  
 ### **Likelihood**: Low  
@@ -32,7 +32,7 @@ bonding_curve: Box<Account<'info, BondingCurve>>,
 
 ---
 
-## L-02: Not Checking Whether the Bonding Curve Is Completed Before Locking the Pool
+## [L-02] Not Checking Whether the Bonding Curve Is Completed Before Locking the Pool
 
 ### **Severity**: Low  
 ### **Likelihood**: Low  
@@ -60,7 +60,7 @@ bonding_curve: Box<Account<'info, BondingCurve>>,
 
 ---
 
-## Additional Comments
+## Additional Comments / Informational issues
 
 - **Unused Accounts**: The `event_authority` account in the `LockPool` instruction is entirely unused. Consider removing it to simplify the code and reduce attack surface.
   
