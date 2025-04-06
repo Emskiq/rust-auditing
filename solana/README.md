@@ -33,6 +33,6 @@ However here is a *not so old* and valuable resources to get you into the securi
 
 ## Audits
 
-* **[Sociogram](https://sociogram.org/)** - [Personal audit](audits/sociogram-my-report.md) + [Hacken's audit](audits/sociogram-hacken-audit.pdf)
+* **[Sociogram](https://sociogram.org/)** - [Personal audit](audits/sociogram-my-audit.md) + [Hacken's audit](audits/sociogram-hacken-audit.pdf)
 
 * **[Pump Science](https://pumpscience.gitbook.io/pump.science)** - [Personal audit](audits/pump-science-my-report.md), [Pashov Group's audit](audits/pump-science-Pashov-group-audit.pdf)
